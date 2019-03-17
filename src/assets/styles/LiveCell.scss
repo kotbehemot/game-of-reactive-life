@@ -1,0 +1,18 @@
+live-cell {
+  background-color: #ada;
+  position: absolute;
+  z-index: 9;
+  animation: appear 0.4s ease;
+  &.crowded {
+    background-color: #8c8;
+  }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

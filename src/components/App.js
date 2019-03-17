@@ -1,12 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import Game from './Game.js'
+
 import '../assets/styles/App.scss';
 
 
-const App = ({ name }) => {
+const App => {
+
   return (
-    <h1>Hello, {name}!</h1>
+    <Game /></div>
   );
 };
 

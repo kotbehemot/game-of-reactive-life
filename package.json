@@ -1,7 +1,7 @@
 {
-  "name": "react-sinatra-starter",
+  "name": "game-of-life",
   "version": "1.0.1",
-  "description": "example sinatra-react app",
+  "description": "Simple implementation of Conway's Game of Life in React.js",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --content-base lib/app/views --hot --inline",
@@ -10,7 +10,7 @@
     "lint:watch": "esw -w src/**",
     "test": "mocha --compilers js:babel-core/register ./test/**/*.spec.js --require ignore-styles"
   },
-  "author": "",
+  "author": "Piotr Barczuk",
   "license": "MIT",
   "dependencies": {
     "babel-core": "^6.24.1",
@@ -21,7 +21,7 @@
     "enzyme": "^2.8.1",
     "expect": "^1.20.2",
     "express": "^4.15.2",
-    "mocha": "^3.2.0",
+    "mocha": "^6.0.2",
     "node-sass": "^4.5.2",
     "prop-types": "^15.5.8",
     "react": "^15.5.4",

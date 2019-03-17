@@ -1,0 +1,28 @@
+board {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  background-image:
+    linear-gradient(#eee 1px, transparent 1px),
+    linear-gradient(90deg, #eee 1px, transparent 1px);
+  border-right: #eee 1px solid;
+  border-bottom: #eee 1px solid;
+}
+
+.control-button {
+  position: fixed;
+  left: 15px;
+  top: 5px;
+  z-index: 99;
+  font-weight: 900;
+  font-size: 2em;
+  border: none;
+  background: none;
+  &:hover {
+    cursor: pointer;
+  }
+  &:active{
+    border: none;
+    color: inherit;
+  }
+}
