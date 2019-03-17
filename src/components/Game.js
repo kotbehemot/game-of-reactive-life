@@ -14,8 +14,8 @@ class Game extends React.Component {
     // board setup
     this.height      = document.documentElement.clientHeight - CELL_SIZE;
     this.width       = document.documentElement.clientWidth - CELL_SIZE;
-    this.rows        = this.height / CELL_SIZE;
-    this.cols        = this.width / CELL_SIZE;
+    this.rows        = this.height / CELL_SIZE - 1;
+    this.cols        = this.width / CELL_SIZE - 1;
     this.board       = this.makeEmptyBoard();
     this.trail_board = this.makeEmptyBoard();
 
