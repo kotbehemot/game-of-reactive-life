@@ -19,7 +19,7 @@ class CellGrid extends React.Component {
       <cell-grid>
         {cells.map(cell => (
           <TagName x={cell.x} y={cell.y} crowd={cell.crowd}
-            key={`${cell.x},${cell.y}`}/>
+            key={`${TagName},${cell.x},${cell.y}`}/>
           ))}
       </cell-grid>
     );

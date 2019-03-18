@@ -9,7 +9,7 @@ import '../assets/styles/App.scss';
 const App => {
 
   return (
-    <Game /></div>
+    <Game />
   );
 };
 
